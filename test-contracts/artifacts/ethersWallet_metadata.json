@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test-contracts/etherswallet.sol": "ethersWallet"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test-contracts/etherswallet.sol": {
+			"keccak256": "0xd93c1bf23ed1dd5858508fa16a85cb2f31ebf061d8f852302b6db35dd14b47c9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e48810c5224f3274378f2535160b46ad5245c9a2865e1c542a280089af061696",
+				"dweb:/ipfs/QmRBpjYqBGQSdA9sCZ6XXThvr3xud7doYs3T6DW1xCsLGF"
+			]
+		}
+	},
+	"version": 1
+}
