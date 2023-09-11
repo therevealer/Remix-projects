@@ -39,8 +39,42 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "Revealer",
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_married",
+						"type": "bool"
+					},
+					{
+						"internalType": "string",
+						"name": "_Job",
+						"type": "string"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "people",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -67,31 +101,16 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					},
+				"inputs": [],
+				"name": "totalPeople",
+				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "_age",
+						"name": "",
 						"type": "uint256"
-					},
-					{
-						"internalType": "bool",
-						"name": "_married",
-						"type": "bool"
-					},
-					{
-						"internalType": "string",
-						"name": "_Job",
-						"type": "string"
 					}
 				],
-				"name": "addPerson",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -136,11 +155,11 @@
 	},
 	"sources": {
 		"smartwallet/struct.sol": {
-			"keccak256": "0x91c892b5c9ea5b7b9293e45b596f6b8960153c2fc2dcdb46920f79fac5ae911d",
+			"keccak256": "0x641388dd16369526c220f4af8e61ba417079efeeb7f0e793092c2cc452db643e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://909b34c2faa3ff3060fe8aecfecf8d7cd31caa29427b3d0809fdf58cedd67016",
-				"dweb:/ipfs/QmRQeThQRdLzZsbGYEGDr296yJGZxP9W1uu4qsBxympu5E"
+				"bzz-raw://0b8dc170c98bf9c15cb385bbb954ee4ae25e812ef85df6f2860401486ea96765",
+				"dweb:/ipfs/Qmd9TUuuLxJhoAws2TtYa26y2AXSuPnsESZnCihMCKzRkW"
 			]
 		}
 	},
