@@ -8,72 +8,65 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "_address",
-						"type": "address"
-					},
-					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					},
-					{
 						"internalType": "uint256",
-						"name": "_age",
+						"name": "_goal",
 						"type": "uint256"
 					}
 				],
-				"name": "addPerson",
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "contribute",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "fundingGoal",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalFunds",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdrawFunds",
 				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_address",
-						"type": "address"
-					}
-				],
-				"name": "getPerson",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"name": "people",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "age",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -90,7 +83,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"smartwallet/struct-mapping.sol": "dataStructure"
+			"smartwallet/try-catch.sol": "tryandCatch"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -104,12 +97,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"smartwallet/struct-mapping.sol": {
-			"keccak256": "0xf352705959e39c6ed2c244ee8edf81cd7520d965bd1d601f43f4e47b9afb43cb",
+		"smartwallet/try-catch.sol": {
+			"keccak256": "0x62d3bd4d4f50a93b09335b594d7e3dccb75674b92629dba886cb89fe8a14cb80",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6104df9ed1a3ea2567693947347c70bf18fc6e49a09000ff75c41e367ac47c18",
-				"dweb:/ipfs/QmYgc5PiKf8Wsp7FfNKThMQP8zvgUNHLTcfGKAFgnXPY5e"
+				"bzz-raw://f7bacac1fa45e8a1ac14d8fed440a24af2ef57b47f325fec21fdf0c9ff69d5c5",
+				"dweb:/ipfs/QmQfB1nXcUt8J1omzqpTrTRAiv8QR5Hvrr1djvrTeHfH1B"
 			]
 		}
 	},
