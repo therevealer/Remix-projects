@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "aFunction",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"smartwallet/mappings.sol": "WillThrow"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"smartwallet/mappings.sol": {
+			"keccak256": "0xc5057aa1dc928f9a3ec3c20a7034e7b1c7e87b701bfb2d14d77ab36e0f37e687",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b73242b6a21a501c2ec67bb2082f61384673c4d4f1eca16571ef251551ae9095",
+				"dweb:/ipfs/QmfJGSU54YQtEJoo5NmJcQbFGCAQjGpifT1XkD1GZJgCLC"
+			]
+		}
+	},
+	"version": 1
+}
