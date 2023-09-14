@@ -6,52 +6,13 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_goal",
-						"type": "uint256"
-					}
-				],
+				"inputs": [],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
 			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": false,
-						"internalType": "string",
-						"name": "error",
-						"type": "string"
-					}
-				],
-				"name": "WithdrawalError",
-				"type": "event"
-			},
-			{
 				"inputs": [],
-				"name": "contribute",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "fundingGoal",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getBalance",
+				"name": "balances",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -67,7 +28,7 @@
 				"name": "owner",
 				"outputs": [
 					{
-						"internalType": "address payable",
+						"internalType": "address",
 						"name": "",
 						"type": "address"
 					}
@@ -76,8 +37,26 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
-				"name": "totalFunds",
+				"name": "viewBalance",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -89,11 +68,8 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "withdrawFunds",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -109,7 +85,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"smartwallet/try-catch.sol": "FundWithdrawalExample"
+			"smartwallet/smart-wallet.sol": "smartWallet"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -123,12 +99,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"smartwallet/try-catch.sol": {
-			"keccak256": "0x5bd2401f6b3d0970c806a69bc531242e193cfa7e3a4b40d578de4f4f753fa1f2",
+		"smartwallet/smart-wallet.sol": {
+			"keccak256": "0xb2e6ff0e1738247edc69593b5caaf207678dcd0ebb495dee15fa2f19178e6e9e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e3afe6acf97736c4c0737d7f42baad18bbc296a539eef2000381a87c9e2ef77b",
-				"dweb:/ipfs/QmWuBGg684cRAbf7SteTE6Jhnety41Xz4wx1rH3ahfUwwv"
+				"bzz-raw://94dfa5bbe46cbc15a3b8633bcf087781c6a2e7749fce324b39e588e58af745a6",
+				"dweb:/ipfs/QmRB5ywJfiYUQBWguKHPc6bJEF6ixemtpY4EXKG5tMRGQu"
 			]
 		}
 	},

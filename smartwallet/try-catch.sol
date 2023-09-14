@@ -46,3 +46,7 @@ contract FundWithdrawalExample {
     // Event to log withdrawal errors
     event WithdrawalError(string error);
 }
+
+//  Wallet features
+// Wallet has one owner || Be able to receive funds with a fallback function
+// Spend money on any address || Recovery or multisig functionality of three to five people.
