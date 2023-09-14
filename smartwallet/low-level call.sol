@@ -9,7 +9,8 @@ contract sender {
     }
 
     function send(address payable to) public {
-        to.send(10);
+      bool sent =  to.send(10);
+      require(sent, "Sending Unsuccesfull");
     }
 }
 
