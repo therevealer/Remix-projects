@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"smartwallet/low-level call.sol": "balanceRe"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"smartwallet/low-level call.sol": {
+			"keccak256": "0x41c443b878321e95ac8601ddbc42c9684c62fa24211ac89c2576ee93f1def449",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a993950fdaabfdcdcd05db9b861056de86b103865d8793e6f1c58dec440803f1",
+				"dweb:/ipfs/QmYunJEWRNwPfA1ug4A25fSz4SVCjzwNxG6RVLfEFFJj98"
+			]
+		}
+	},
+	"version": 1
+}

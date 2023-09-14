@@ -1,0 +1,50 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"smartwallet/low-level call.sol": "balance"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"smartwallet/low-level call.sol": {
+			"keccak256": "0xc16b7ce43506d4ff771f891b185bd9a6136e19a5a8cec5d3b0f14fa655809d7b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://419d4a3b405db6126d905b0c63b8fdc4fd55f03031910b659e3af2fca680b8e0",
+				"dweb:/ipfs/QmXBmQkAfwuV5xk6hTYzoY7aKzfZNowxXXaxppCn14rZ7g"
+			]
+		}
+	},
+	"version": 1
+}
