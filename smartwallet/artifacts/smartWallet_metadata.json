@@ -100,11 +100,11 @@
 	},
 	"sources": {
 		"smartwallet/smart-wallet.sol": {
-			"keccak256": "0xb2e6ff0e1738247edc69593b5caaf207678dcd0ebb495dee15fa2f19178e6e9e",
+			"keccak256": "0x72376d7fc4ba151027b2f376a129c4316a0f37e31af8fac5233ce87a4e964bba",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://94dfa5bbe46cbc15a3b8633bcf087781c6a2e7749fce324b39e588e58af745a6",
-				"dweb:/ipfs/QmRB5ywJfiYUQBWguKHPc6bJEF6ixemtpY4EXKG5tMRGQu"
+				"bzz-raw://1c9c7228c20d92d7ec2c4661d9ff9f601146a87dd8b095938985f6d919376d59",
+				"dweb:/ipfs/QmbCNNCEbZKZ4UhdWT9fUg2QczESzVcKRT2JM1vA8SXJU5"
 			]
 		}
 	},
