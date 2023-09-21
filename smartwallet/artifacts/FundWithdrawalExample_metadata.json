@@ -124,11 +124,11 @@
 	},
 	"sources": {
 		"smartwallet/try-catch.sol": {
-			"keccak256": "0x5bd2401f6b3d0970c806a69bc531242e193cfa7e3a4b40d578de4f4f753fa1f2",
+			"keccak256": "0x04a9357c49dc9db99095adac6fc8ab94f08b5b1e97dfc9235e2e5f5acdd5b8b1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e3afe6acf97736c4c0737d7f42baad18bbc296a539eef2000381a87c9e2ef77b",
-				"dweb:/ipfs/QmWuBGg684cRAbf7SteTE6Jhnety41Xz4wx1rH3ahfUwwv"
+				"bzz-raw://5d81183f135b585f4b23265bc1dffc8bf927664ee6234cc05f116cfabec98ef1",
+				"dweb:/ipfs/QmWKDiNCp8FkK8gmzGP3wZXgZPFagFJ1khUMGGyA6mgeWq"
 			]
 		}
 	},
