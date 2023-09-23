@@ -6,32 +6,43 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
 			{
-				"inputs": [],
-				"name": "decrement",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "increment",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "variable",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "myFunc",
 				"outputs": [
 					{
-						"internalType": "int256",
+						"internalType": "string",
 						"name": "",
-						"type": "int256"
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -51,7 +62,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"test-contracts/storage.sol": "StorageContract"
+			"solidity by example/raw.sol": "Foo"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -65,12 +76,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"test-contracts/storage.sol": {
-			"keccak256": "0x71739e443e0317b52b375b8fab69227bba454e3984eda9af00de6fb1baa42121",
+		"solidity by example/raw.sol": {
+			"keccak256": "0x03f6a87e847f7e4d40ff0f64f4d834edacc2bbe3622cc87c72bd5e813f227633",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8efb338745c8424a616526d9ccf45170984e96836be6a584d5eb0cf64311f42a",
-				"dweb:/ipfs/QmboEK7EoKBNrcp5jkvNMru9RRY5KP7qwNGDc2um7vuVJ8"
+				"bzz-raw://f2ffca0317941fa602ee7c94031616db373e3ee77a4163406ece6d1e3c759549",
+				"dweb:/ipfs/QmWFcUvCyLyDBtjA84gzdWAa21AAH4rN4Z97pH6eE4vKJ1"
 			]
 		}
 	},
