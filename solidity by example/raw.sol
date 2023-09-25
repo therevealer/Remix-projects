@@ -18,6 +18,7 @@ contract Foo {
 }
 
 contract Bar {
+    
     event Log(string message);
     event LogBytes(bytes data);
 
