@@ -30,4 +30,14 @@ async function contractInstance(){
         ];
 
         let contract = new web3.eth.Contract(abi, address);
+        let accounts = await web3.eth.getAccounts();
+        let sendCall = await contract.methods.setMyUint(345).send({from: accounts[0]});
+
+        console.log(sendCall);
+        console.log(await contract.methods.myUint().call());
+        console.log(accounts)
+
+        //I don't know what happened here but it is working!
 }
+
+contractInstance()
