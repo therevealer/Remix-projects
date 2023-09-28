@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ERC20 Token Sale/ownable.sol": "Owned"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ERC20 Token Sale/ownable.sol": {
+			"keccak256": "0x71975b7cac33d418ed4a4a3644460f8c28aefea7202add8ea248c02e6bc23c00",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c455091749acdfbd55d372d39dfafbde535f792903b1ad94a1e4da8833b0d06c",
+				"dweb:/ipfs/QmeLbX9DezSo1V8LzzTefHueQcS9wr9fM5n1yEtUe4whWs"
+			]
+		}
+	},
+	"version": 1
+}

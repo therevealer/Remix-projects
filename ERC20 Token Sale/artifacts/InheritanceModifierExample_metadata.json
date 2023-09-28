@@ -11,29 +11,25 @@
 				"type": "constructor"
 			},
 			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": false,
-						"internalType": "address",
-						"name": "_from",
-						"type": "address"
-					},
-					{
-						"indexed": false,
-						"internalType": "address",
-						"name": "_to",
-						"type": "address"
-					},
-					{
-						"indexed": false,
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					}
-				],
-				"name": "TokenSent",
-				"type": "event"
+				"inputs": [],
+				"name": "burnToken",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "createNewToken",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "purchaseToken",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
 			},
 			{
 				"inputs": [
@@ -49,13 +45,7 @@
 					}
 				],
 				"name": "sendToken",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
+				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
@@ -92,7 +82,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"ERC20 Token Sale/events.sol": "EventExample"
+			"ERC20 Token Sale/modifier.sol": "InheritanceModifierExample"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -106,12 +96,20 @@
 		"remappings": []
 	},
 	"sources": {
-		"ERC20 Token Sale/events.sol": {
-			"keccak256": "0x75ee7d1f34c12e8132decaa519605fa94991034ee805b2f737892e15e13334d2",
+		"ERC20 Token Sale/modifier.sol": {
+			"keccak256": "0xa4cf0660fa7347bcc5435fe0fdbc94d8c15ba0cbfc5997bac9cce2cbbffce4fe",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4d7f98dba6dd1c1f50fbd06dc036d86a116ca4fdb99af93457e0251b1ea455d3",
-				"dweb:/ipfs/QmNaxGLmzUemP7jkraBWf2a6FL5xEfQzdwbU73oFPReaEH"
+				"bzz-raw://41d64cb819c873e9250b6cd173476b8fe1f010cdb83aa0f4d409be49756aaaf2",
+				"dweb:/ipfs/QmSaHz6x57H7qWveFfU13Xpx6hp47iLaDYWXJc2JRFipNe"
+			]
+		},
+		"ERC20 Token Sale/ownable.sol": {
+			"keccak256": "0x71975b7cac33d418ed4a4a3644460f8c28aefea7202add8ea248c02e6bc23c00",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c455091749acdfbd55d372d39dfafbde535f792903b1ad94a1e4da8833b0d06c",
+				"dweb:/ipfs/QmeLbX9DezSo1V8LzzTefHueQcS9wr9fM5n1yEtUe4whWs"
 			]
 		}
 	},
