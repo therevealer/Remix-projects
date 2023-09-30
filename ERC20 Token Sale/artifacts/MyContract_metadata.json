@@ -1,13 +1,24 @@
 {
 	"compiler": {
-		"version": "0.8.14+commit.80d49f37"
+		"version": "0.8.21+commit.d9974bed"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
 				"inputs": [],
-				"name": "myUint",
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balance",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -21,12 +32,36 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					}
+				],
+				"name": "someCrypticFunctionName",
+				"outputs": [
+					{
 						"internalType": "uint256",
-						"name": "newUint",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "setMyUint",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -45,9 +80,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"ERC20 Token Sale/debugger.sol": "MyContract"
+			"ERC20 Token Sale/verify.sol": "MyContract"
 		},
-		"evmVersion": "london",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -59,12 +94,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"ERC20 Token Sale/debugger.sol": {
-			"keccak256": "0x11968e78197d23b246f7550a6ba88e8a27d6e786c17d97d4475cac8d4106c7f8",
+		"ERC20 Token Sale/verify.sol": {
+			"keccak256": "0xb21e0b330b08c81d9f11f1aac77c7f5cc2b5dbf51172f5540877f4acf1f04128",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8adc70d603409788fe80aa21c7ae6d1cac36ab8f58092bc3153f6c020c7b1dff",
-				"dweb:/ipfs/QmfCdnAPdwFjio7HnB6S8ivUHvST4jZzCk9ZgMtLp9sWKX"
+				"bzz-raw://07b0f81054e09989caf51d7c7c6a4ca06c771b08a5a31c89f2908484e933e287",
+				"dweb:/ipfs/Qmd79q4XMjDvigPvcZbWJUn5JHhvNjCR5psYepEuPLM6gR"
 			]
 		}
 	},
