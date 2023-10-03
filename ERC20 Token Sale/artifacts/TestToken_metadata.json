@@ -829,11 +829,11 @@
 			]
 		},
 		"ERC20 Token Sale/openzepplin.sol": {
-			"keccak256": "0x4352a06af4dd2e02175ef4838ed29ef5e4dcb7c7ea2f2f4d7edc91b80446e256",
+			"keccak256": "0x7f5e7d4df7057730fd6dd0a5ab73a1fddb047e8d0806538eb0243b3f46ada248",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://600177173a842906ca609d43786e0dc505fd9fe19a0e6038e26bc88d1217a7d3",
-				"dweb:/ipfs/QmcDWbzee23kd7yLymAZNpWk38PoaKF2RVnXVZUsYK7ngL"
+				"bzz-raw://127dc6e5a9acb80242930bcde3aca00918c6b3c761ff2d2ffd656924d34e307a",
+				"dweb:/ipfs/QmUcdkzkJX2VUbE1SrKzVwGtr1BnRywZQL2Jh4yBD8pWfV"
 			]
 		}
 	},

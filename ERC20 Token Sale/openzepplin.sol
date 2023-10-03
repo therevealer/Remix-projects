@@ -37,3 +37,5 @@ contract TestToken is ERC20, ERC20Burnable, Pausable, AccessControl {
         super._beforeTokenTransfer(from, to, amount);
     }
 }
+
+// Added comments to show activeness
