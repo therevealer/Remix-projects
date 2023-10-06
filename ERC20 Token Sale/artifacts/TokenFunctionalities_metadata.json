@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ERC20 Token Sale/ERC-Token.sol": "TokenFunctionalities"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ERC20 Token Sale/ERC-Token.sol": {
+			"keccak256": "0xfdfa5b0ca17b1dfc1c08d7e72be77f32b120710d44900d7480095bfd204d1c6c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1345b710b71ec12306cff3b72a28df091d9fd0e921f1ed63ed2c819d9ba2a1e8",
+				"dweb:/ipfs/QmS4YS1Me62ty5XGQXPTZfsxiHafM76msyKyKqSyZtuRPW"
+			]
+		}
+	},
+	"version": 1
+}

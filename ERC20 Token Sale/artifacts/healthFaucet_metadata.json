@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ERC20 Token Sale/healthFaucet.sol": "healthFaucet"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ERC20 Token Sale/healthFaucet.sol": {
+			"keccak256": "0x38dba110d48b78c7d9ff9b029b4d92154042b96fdd83c360af7f9d8b3fbb7c31",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0b6f4d1bc843b7d07b6ed5091e7850f47940b7c588dca934bedf61037e9ec8fb",
+				"dweb:/ipfs/QmbQYK59BRCeK9UNQafoHziDv8kVUAk8zhjFdUJ773SJ9S"
+			]
+		}
+	},
+	"version": 1
+}

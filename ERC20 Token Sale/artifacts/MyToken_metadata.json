@@ -282,11 +282,11 @@
 	},
 	"sources": {
 		"ERC20 Token Sale/erc-raw.sol": {
-			"keccak256": "0xbfff70e25b336a8fbd66dd8d535b93bd4f256acac610084b9a0b2eb36174baa2",
+			"keccak256": "0x5df7ccdd9cc9ec96c548b6b3b05dbe2154b27c41c0b01e648f841cd2c7d8747c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b1452e820cbf3b9767321f947961b82b35c93a94dfb2d506bb0e9d0de182c050",
-				"dweb:/ipfs/QmfKYHxoRj8W9uPZvL6JtzWHcDaP6dPrLLnzSCWPv7UbNh"
+				"bzz-raw://a3a66ab2aab856f5536651d9be65f644d7bec1127335e595eacd0229c1af4660",
+				"dweb:/ipfs/QmZp5VpjBttbPpvyzXH5UnXxqzCjzfYnPQNiSUqtoeCS4Y"
 			]
 		}
 	},
