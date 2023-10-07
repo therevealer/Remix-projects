@@ -1,35 +1,31 @@
 //SPDX-License-Identifier: MIT
 pragma solidity 0.8.21;
 
-import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "./ERCFaucet.sol";
 
+contract HealthFaucet {
+    address public owner; // Address of the contract owner
+    HealthTokenFaucet public HealthToken; // Your ERC20 Health Token contract
+    
+     // Mapping to store the last submission time for each user
+    mapping(address => uint256) public lastSubmissionTime;
 
-contract HealthToken is ERC20 {
+    uint256 public TokenPerDay = 10;
 
-
-    constructor() ERC20("HealthToken", "HEAT") {
-        _mint(msg.sender, 1000 * 10 ** decimals());
+     constructor(address _tokenAddress) {
         owner = msg.sender;
+        HealthToken = HealthTokenFaucet(_tokenAddress);
     }
 
-    // Modifier to restrict access to the contract owner
+      // Modifier to restrict access to the contract owner
     modifier onlyOwner() {
         require(msg.sender == owner, "Only the owner can perform this operation");
         _;
     }
-
-    function mint(address to, uint256 amount) public onlyOwner {
-        _mint(to, amount);
-    }
-
-    function balance(address _owner) public view returns (uint){
-    require(_owner != address(0), "cannot be an address zero");
-    return _balances[_owner];
-    }
-
+    
     // Function to submit proof and receive health tokens
     function submitProofAndReceiveRewards(bytes32 proofHash) external {
-        require(balanceOf(address(this)) >= 10, "Insufficient Balance");
+        require(HealthToken.balanceOf(address(this)) >= 10, "Insufficient Balance");
     }
 
     // Event to log token transfers

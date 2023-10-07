@@ -1,0 +1,155 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_tokenAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "RewardsReceived",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "HealthToken",
+				"outputs": [
+					{
+						"internalType": "contract HealthTokenFaucet",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "TokenPerDay",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "lastSubmissionTime",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "proofHash",
+						"type": "bytes32"
+					}
+				],
+				"name": "submitProofAndReceiveRewards",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ERC20 Token Sale/HealthContract.sol": "HealthFaucet"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ERC20 Token Sale/ERCFaucet.sol": {
+			"keccak256": "0xc417c5146e1c1d95553a20bc82d121868e292b399ac66644c678372ffb3ed36c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://84cbf52d94913e5117a8baa194419c6a0d68d0dd43dc92972512e92aa680fdbe",
+				"dweb:/ipfs/QmcNV8NRZ1hT6d8ij7wbYhbaTAiqycuLc3tY2Gua54X4rG"
+			]
+		},
+		"ERC20 Token Sale/HealthContract.sol": {
+			"keccak256": "0xa4550a48d9cb8c09904ebe2ba9ef178556fc111b429ef58776d2498f48eb4d91",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d4ec2735543dce798e127a3be830826a266363589e9d05154775dd7a9ae744f2",
+				"dweb:/ipfs/QmNR6UoF11Wq2JoFR231eaH4S5xLBSYKPZv7pD4txR6HCT"
+			]
+		}
+	},
+	"version": 1
+}

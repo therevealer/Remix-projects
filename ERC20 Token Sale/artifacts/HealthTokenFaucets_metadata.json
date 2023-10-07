@@ -267,7 +267,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"ERC20 Token Sale/erc-raw.sol": "MyToken"
+			"ERC20 Token Sale/erc-raw.sol": "HealthTokenFaucets"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -282,11 +282,11 @@
 	},
 	"sources": {
 		"ERC20 Token Sale/erc-raw.sol": {
-			"keccak256": "0x4c18ce6cf953b8d11bc6385d7efd8d7e39b2b39de8b9d576f09c3e2bbc451c2a",
+			"keccak256": "0x775b768dc8c65e80a00b6c27a9de015782be0d22775b17dd86e0209ff7d6a13c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a15ed663871c280376026806703630de990e808213d0312ab5f82e4ee868df6d",
-				"dweb:/ipfs/QmbThr2xeMmpBAXb3XxvpzvfRR2MTQx65X2F3hdsxytzkA"
+				"bzz-raw://ee499866e01d0caf229f2a23802ff1a74eddca84872a9b30cdcab2474dc8af40",
+				"dweb:/ipfs/Qme7YvXiuvZSrpfE4jRUKjzX3YGoVKzEamA69NEi4Vqph6"
 			]
 		}
 	},
