@@ -6,13 +6,7 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "initialOwner",
-						"type": "address"
-					}
-				],
+				"inputs": [],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
@@ -837,11 +831,11 @@
 			]
 		},
 		"NFT/NftPrototype.sol": {
-			"keccak256": "0x9a79f76969d5fc97b92ba5e94a5061b0148494fce42137e2d5623a849d1d40e8",
+			"keccak256": "0xe412938f805977c2e2d64116fdf6efa6ba2de25d10f6b5fb8a4d8c0bfa58a504",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://09c3e1dd51fa11da0d5b681823188d42b110b94236cc60b232e6806a2b2ab94b",
-				"dweb:/ipfs/QmYJKNZxoSLZt43JhxQ1sKp44XANQ1xuNTtqWRVP5Ag8qf"
+				"bzz-raw://25993970cb1ed57c77a42ce7b0395bbc0e26a066d1e4d1e4dcdf69256ae0c6ba",
+				"dweb:/ipfs/QmZ4D1cqurQKACGvqp2mMznqFxHjFqgJmKuP4bc7EBW8fu"
 			]
 		}
 	},
